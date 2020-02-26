@@ -170,7 +170,7 @@ p#copyright{
     text-align: center;
 }
 
-/*  TABLET - max-width:800px  */
+/*  TABLET - max-width: 800px   */
 
 @media(max-width:800px){
     header{
@@ -193,6 +193,53 @@ p#copyright{
     section.main-section span button{
         width: 20%;
         margin-left: 40%;
-
     }
+}
+
+/*  MOBILE - max-width: 500px   */
+
+@media(max-width:500px){
+    header{
+        flex-direction: column-reverse;
+    }
+    header nav{
+        width: 100%;
+        flex-direction: column;
+        border-top: 1px solid darkgray;
+    }
+    header nav a{
+        border-bottom: 1px solid darkgray;
+        height: 7vh;
+        text-align: center;
+        padding-top: 7px;
+    }
+    header img{
+        display:inline-block;
+        margin: 10px auto;
+        height: 5vh;
+        width: 100%;
+    }
+
+    section.border-top{
+        flex-wrap: wrap;
+        margin: 15px 15px 0 15px;
+        padding: 15px;
+    }
+    section.border-top div{
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    section.border-bottom{
+        flex-wrap: wrap;
+        margin: 15px 15px 0 15px;
+        padding: 15px;
+    }
+    section.border-bottom div{
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
 }
