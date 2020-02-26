@@ -62,3 +62,110 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+header{
+    display: flex;
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    color: gray;
+    font-size: 19px;
+}
+
+header img.logo{
+    display:inline-block;
+    width: 22%;
+}
+
+section.main-section{
+    display: flex;
+    margin-top: 35px;
+}
+
+section.main-section span{
+    display:inline-block;
+    width: 50%;
+}
+
+section.main-section h1{
+    font-size: 65px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+section.main-section button{
+    background-color: white;
+    border: 1px solid black;
+    height: 35px;
+    margin-left: 250px;
+}
+
+section.main-section img{
+    padding-left: 65px;
+}
+
+section.border-top{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+
+section.border-top div{
+    display:inline-block;
+    width: 50%;
+    padding: 0 15px;
+}
+
+section.border-top h3{
+    font-size: 20px;
+}
+
+img.middle-img{
+    display: block;
+    width: 100%;
+}
+
+
+
+section.border-bottom{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+section.border-bottom div{
+    display:inline-block;
+    width: 30%;
+    padding: 0 15px;
+}
+
+section.border-bottom h3{
+    font-size: 20px;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+footer h3{
+    font-size: 20px;
+}
+
+footer p{
+    padding-top: 8px;
+}
+
+p#copyright{
+    text-align: center;
+}
